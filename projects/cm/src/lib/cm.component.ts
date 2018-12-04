@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'cm-cm',
+  selector: 'cm-shared',
   template: `
     <p>
-      cm works!
+      [CM SHARED COMPONENT]
     </p>
   `,
   styles: []
