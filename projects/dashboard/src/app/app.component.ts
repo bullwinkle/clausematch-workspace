@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-workspace-root',
+  selector: 'cm-dashboard-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'clausematch';
+  title = 'dashboard';
 }
