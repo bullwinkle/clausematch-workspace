@@ -13,7 +13,7 @@ import { AppModule as CmPublicAppModule } from '../../projects/public/src/app/ap
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     CmModule,
     CmPublicAppModule,
     CmEditorAppModule,
